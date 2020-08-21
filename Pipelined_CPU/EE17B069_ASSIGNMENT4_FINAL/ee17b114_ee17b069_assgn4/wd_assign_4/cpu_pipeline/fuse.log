@@ -1,0 +1,48 @@
+Running: /opt/tools/xilinx/ise/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_pipeline_tb_isim_beh.exe -prj /home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_pipeline_tb_beh.prj work.cpu_pipeline_tb work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/reg_indata_generator.v" into library work
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/regfile.v" into library work
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/pc_candidate_generation_module.v" into library work
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/pc.v" into library work
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/imem.v" into library work
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/hazrd_detect.v" into library work
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/decoder_moduler.v" into library work
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/I_stage.v" into library work
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/dmem.v" into library work
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/alu.v" into library work
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_final.v" into library work
+WARNING:HDLCompiler:35 - "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_final.v" Line 294: <daddr_EX_MEM_reg_wire> is already implicitly declared earlier.
+Analyzing Verilog file "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_pipeline_tb.v" into library work
+Analyzing Verilog file "/opt/tools/xilinx/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_pipeline_tb.v" Line 57: Port pc_candidate is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_final.v" Line 102: Port auipc_MEM_WB is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_final.v" Line 219: Port daddr_I_EX is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/I_stage.v" Line 70: Port MemRead is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/I_stage.v" Line 95: Port hazard_type is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 95240 KB
+Fuse CPU Usage: 910 ms
+Compiling module controlUnit
+Compiling module hazard_detect
+Compiling module imem
+Compiling module pc_module
+Compiling module pc_candidate_generation_module
+Compiling module regfiles
+Compiling module reg_indata_generator
+Compiling module I_stage
+Compiling module EX_stage
+Compiling module MEM_stage
+Compiling module cpu_final
+Compiling module cpu_pipeline_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable /home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_pipeline_tb_isim_beh.exe
+Fuse Memory Usage: 1705624 KB
+Fuse CPU Usage: 980 ms
+GCC CPU Usage: 1160 ms

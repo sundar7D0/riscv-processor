@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_final.v" Line 294: &lt;<arg fmt="%s" index="1">daddr_EX_MEM_reg_wire</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_pipeline_tb.v" Line 57: Port <arg fmt="%s" index="1">pc_candidate</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_final.v" Line 102: Port <arg fmt="%s" index="1">auipc_MEM_WB</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_final.v" Line 219: Port <arg fmt="%s" index="1">daddr_I_EX</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/I_stage.v" Line 70: Port <arg fmt="%s" index="1">MemRead</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/I_stage.v" Line 95: Port <arg fmt="%s" index="1">hazard_type</arg> is not connected to this instance
+</msg>
+
+</messages>
+

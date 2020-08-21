@@ -1,0 +1,4 @@
+verilog isim_temp "rf.v"
+verilog isim_temp "alu.v"
+verilog isim_temp "cpu.v"
+verilog isim_temp "/opt/tools/xilinx/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v"

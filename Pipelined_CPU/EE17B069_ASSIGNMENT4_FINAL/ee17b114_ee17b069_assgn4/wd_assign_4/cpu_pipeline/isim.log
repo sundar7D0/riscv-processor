@@ -1,0 +1,10 @@
+ISim log file
+Running: /home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_pipeline_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/pruthvirg/Desktop/sem_fire/comp_org/wd_assign_4/cpu_pipeline/cpu_pipeline_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 2500 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

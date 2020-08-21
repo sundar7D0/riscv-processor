@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/sundar/Desktop/comporg/a2/rf2mem/rf2m_tb_isim_beh.exe" -prj "/home/sundar/Desktop/comporg/a2/rf2mem/rf2m_tb_beh.prj" "work.rf2m_tb" "work.glbl" 

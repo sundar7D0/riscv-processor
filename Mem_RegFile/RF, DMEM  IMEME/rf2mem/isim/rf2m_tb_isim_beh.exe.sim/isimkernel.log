@@ -1,0 +1,10 @@
+Command line:
+   rf2m_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60029
+
+Fri Sep 13 13:45:23 2019
+
+
+ Elaboration Time: 0.06 sec

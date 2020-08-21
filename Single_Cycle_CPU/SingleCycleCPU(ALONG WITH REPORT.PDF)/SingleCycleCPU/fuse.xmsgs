@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="568" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 213: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 225: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 231: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 142: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 151: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 160: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 169: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 178: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 187: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 63: Port <arg fmt="%s" index="1">reset</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 142: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 151: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 160: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 169: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 178: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="unknown" >"/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 187: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+</messages>
+

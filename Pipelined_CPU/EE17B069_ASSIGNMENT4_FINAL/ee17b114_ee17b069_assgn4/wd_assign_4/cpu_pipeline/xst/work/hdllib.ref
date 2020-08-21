@@ -1,0 +1,10 @@
+MO pc_module NULL pc.v vlg00/pc__module.bin 1573662503
+MO MEM_stage NULL dmem.v vlg76/_m_e_m__stage.bin 1573662503
+MO imem NULL imem.v vlg50/imem.bin 1573662503
+MO hazard_detect NULL hazrd_detect.v vlg5E/hazard__detect.bin 1573662503
+MO regfiles NULL regfile.v vlg2D/regfiles.bin 1573662503
+MO I_stage NULL I_stage.v vlg04/_i__stage.bin 1573662503
+MO pc_candidate_generation_module NULL pc_candidate_generation_module.v vlg37/pc__candidate__generation__module.bin 1573662503
+MO reg_indata_generator NULL reg_indata_generator.v vlg28/reg__indata__generator.bin 1573662503
+MO EX_stage NULL alu.v vlg2C/_e_x__stage.bin 1573662503
+MO controlUnit NULL decoder_moduler.v vlg11/control_unit.bin 1573662503

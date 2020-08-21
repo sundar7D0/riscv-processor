@@ -1,0 +1,127 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Map Application Log File for Design 'cpu'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off
+-c 100 -o cpu_map.ncd cpu.ngd cpu.pcf 
+Target Device  : xc3s100e
+Target Package : vq100
+Target Speed   : -5
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Fri Oct 25 16:45:44 2019
+
+Mapping design into LUTs...
+Running directed packing...
+WARNING:Pack:266 - The function generator alu1/Sh33511 failed to merge with F5
+   multiplexer alu1/Sh335_f5.  There is a conflict for the FXMUX.  The design
+   will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator alu1/Sh33611 failed to merge with F5
+   multiplexer alu1/Sh336_f5.  There is a conflict for the FXMUX.  The design
+   will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator rf1/rv1<31>1 failed to merge with F5
+   multiplexer alu1/Sh55_f5.  There is a conflict for the FXMUX.  The design
+   will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator rf1/rv1<31>1 failed to merge with F5
+   multiplexer alu1/Sh56_f5.  There is a conflict for the FXMUX.  The design
+   will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator rf1/rv1<31>1 failed to merge with F5
+   multiplexer alu1/Sh57_f5.  There is a conflict for the FXMUX.  The design
+   will exhibit suboptimal timing.
+WARNING:Pack:266 - The function generator rf1/rv1<31>1 failed to merge with F5
+   multiplexer alu1/Sh58_f5.  There is a conflict for the FXMUX.  The design
+   will exhibit suboptimal timing.
+Running delay-based LUT packing...
+Running related packing...
+Running unrelated packing...
+Updating timing models...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rs2_not0001 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net shamt_cmp_eq0000 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rs1_not0001 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net x31_not0001 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net we_not0001 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net rd_not0001 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net op_not0001 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+ERROR:Pack:2310 - Too many comps of type "SLICEL" found to fit this device.
+ERROR:Pack:18 - The design is too large for the given device and package. 
+   Please check the Design Summary section to see which resource requirement for
+   your design exceeds the resources available in the device.
+
+   NOTE: An NCD file will still be generated to allow you to examine the mapped
+   design.  This file is intended for evaluation use only, and will not process
+   successfully through PAR.
+
+   This mapped NCD file can be used to evaluate how the design's logic has been
+   mapped into FPGA logic resources.  It can also be used to analyze
+   preliminary, logic-level (pre-route) timing with one of the Xilinx static
+   timing analysis tools (TRCE or Timing Analyzer).
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      2
+Number of warnings:   13
+Logic Utilization:
+  Number of Slice Latches:              237 out of   1,920   12%
+  Number of 4 input LUTs:             2,081 out of   1,920  108% (OVERMAPPED)
+Logic Distribution:
+  Number of occupied Slices:          1,058 out of     960  110% (OVERMAPPED)
+    Number of Slices containing only related logic:   1,058 out of   1,058 100%
+    Number of Slices containing unrelated logic:          0 out of   1,058   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       2,116 out of   1,920  110% (OVERMAPPED)
+    Number used as logic:             1,825
+    Number used as a route-thru:         35
+    Number used for Dual Port RAMs:     256
+      (Two LUTs used per Dual Port RAM)
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                230 out of      66  348% (OVERMAPPED)
+    IOB Flip Flops:                      32
+    IOB Latches:                         32
+  Number of BUFGMUXs:                     7 out of      24   29%
+
+Average Fanout of Non-Clock Nets:                4.10
+
+Peak Memory Usage:  650 MB
+Total REAL time to MAP completion:  15 secs 
+Total CPU time to MAP completion:   4 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "cpu_map.mrp" for details.
+Problem encountered during the packing phase.

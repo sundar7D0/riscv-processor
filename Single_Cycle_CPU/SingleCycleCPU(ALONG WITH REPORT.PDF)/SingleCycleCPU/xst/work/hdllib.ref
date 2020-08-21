@@ -1,0 +1,5 @@
+MO dmem NULL dmem.v vlg5F/dmem.bin 1571970840
+MO imem NULL imem.v vlg50/imem.bin 1571970840
+MO cpu NULL cpu.v vlg50/cpu.bin 1572002102
+MO rf NULL rf.v vlg20/rf.bin 1572002102
+MO alu NULL alu.v vlg0A/alu.bin 1572002102

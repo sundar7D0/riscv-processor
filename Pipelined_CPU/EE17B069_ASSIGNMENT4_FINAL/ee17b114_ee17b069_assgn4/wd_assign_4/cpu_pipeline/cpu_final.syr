@@ -1,0 +1,147 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: cpu_final.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cpu_final.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cpu_final"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : cpu_final
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "reg_indata_generator.v" in library work
+Compiling verilog file "regfile.v" in library work
+Module <reg_indata_generator> compiled
+Compiling verilog file "pc_candidate_generation_module.v" in library work
+Module <regfiles> compiled
+Compiling verilog file "pc.v" in library work
+Module <pc_candidate_generation_module> compiled
+Compiling verilog file "imem.v" in library work
+Module <pc_module> compiled
+Compiling verilog file "hazrd_detect.v" in library work
+Module <imem> compiled
+Compiling verilog file "decoder_moduler.v" in library work
+Module <hazard_detect> compiled
+Compiling verilog file "I_stage.v" in library work
+Module <controlUnit> compiled
+Compiling verilog file "dmem.v" in library work
+Module <I_stage> compiled
+Compiling verilog file "alu.v" in library work
+Module <MEM_stage> compiled
+Compiling verilog file "cpu_final.v" in library work
+Module <EX_stage> compiled
+ERROR:HDLCompilers:28 - "cpu_final.v" line 95 'RegWrite_MEM_WB_reg' has not been declared
+ERROR:HDLCompilers:28 - "cpu_final.v" line 96 'RegWrite_EX_MEM_reg' has not been declared
+ERROR:HDLCompilers:28 - "cpu_final.v" line 97 'RegWrite_I_EX_reg' has not been declared
+ERROR:HDLCompilers:28 - "cpu_final.v" line 98 'MemWrite_EX_MEM_reg' has not been declared
+ERROR:HDLCompilers:28 - "cpu_final.v" line 99 'MemWrite_I_EX_reg' has not been declared
+ERROR:HDLCompilers:27 - "cpu_final.v" line 294 Illegal redeclaration of 'daddr_EX_MEM_reg_wire'
+Module <cpu_final> compiled
+Analysis of file <"cpu_final.prj"> failed.
+--> 
+
+
+Total memory usage is 489676 kilobytes
+
+Number of errors   :    6 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;cpu_final.v&quot; line 95 </arg>&apos;<arg fmt="%s" index="2">RegWrite_MEM_WB_reg</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;cpu_final.v&quot; line 96 </arg>&apos;<arg fmt="%s" index="2">RegWrite_EX_MEM_reg</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;cpu_final.v&quot; line 97 </arg>&apos;<arg fmt="%s" index="2">RegWrite_I_EX_reg</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;cpu_final.v&quot; line 98 </arg>&apos;<arg fmt="%s" index="2">MemWrite_EX_MEM_reg</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="28" delta="old" ><arg fmt="%s" index="1">&quot;cpu_final.v&quot; line 99 </arg>&apos;<arg fmt="%s" index="2">MemWrite_I_EX_reg</arg>&apos; has not been declared
+</msg>
+
+<msg type="error" file="HDLCompilers" num="27" delta="old" ><arg fmt="%s" index="1">&quot;cpu_final.v&quot; line 294 </arg>Illegal redeclaration of &apos;<arg fmt="%s" index="2">daddr_EX_MEM_reg_wire</arg>&apos;
+</msg>
+
+</messages>
+

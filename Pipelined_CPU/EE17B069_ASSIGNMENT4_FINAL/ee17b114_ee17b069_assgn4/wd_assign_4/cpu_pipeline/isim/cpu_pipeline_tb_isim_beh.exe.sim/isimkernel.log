@@ -1,0 +1,10 @@
+Command line:
+   cpu_pipeline_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55195
+
+Wed Nov 13 22:24:21 2019
+
+
+ Elaboration Time: 0.03 sec

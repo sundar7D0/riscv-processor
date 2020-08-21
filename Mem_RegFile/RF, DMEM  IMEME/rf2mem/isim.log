@@ -1,0 +1,28 @@
+ISim log file
+Running: /home/sundar/Desktop/comporg/a2/rf2mem/rf2m_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/sundar/Desktop/comporg/a2/rf2mem/rf2m_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 105 Passed: Expected=ffff0023 and Output=ffff0023
+                 115 Passed: Expected=ffff0103 and Output=ffff0103
+                 125 Passed: Expected=ffff1023 and Output=ffff1023
+                 135 Passed: Expected=ffff1103 and Output=ffff1103
+                 255 Passed: Expected=1f0f0f0f and Output=1f0f0f0f
+                 765 Passed: Expected=11001100 and Output=11001100
+                 875 Passed: Expected=3f000000 and Output=3f000000
+                 985 Passed: Expected=1f0f0f0f and Output=1f0f0f0f
+# run 1.00us
+                1095 Passed: Expected=0000000f and Output=0000000f
+                1205 Passed: Expected=3f0f0f0f and Output=3f0f0f0f
+                1315 Failed: Expected=00000000 but Output=xxxxxxxx
+                1425 Passed: Expected=11001100 and Output=11001100
+                1735 Passed: Expected=ffff0000 and Output=ffff0000
+PASS           4 - IMEM
+Failed          1 out of           8 - DMEM
+PASS           1 - RF
+Stopped at time : 1935 ns : File "/home/sundar/Desktop/comporg/a2/rf2mem/rf2mem_tb.v" Line 206

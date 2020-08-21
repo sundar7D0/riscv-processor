@@ -1,0 +1,5 @@
+verilog work "rf2mem.v"
+verilog work "imem.v"
+verilog work "dmem.v"
+verilog work "rf2mem_tb.v"
+verilog work "/opt/tools/xilinx/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v"

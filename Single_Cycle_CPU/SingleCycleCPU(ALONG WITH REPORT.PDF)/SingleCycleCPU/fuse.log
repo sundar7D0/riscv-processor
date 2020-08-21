@@ -1,0 +1,45 @@
+Running: /opt/tools/xilinx/ise/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu_tb_isim_beh.exe -prj /home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu_tb_beh.prj work.cpu_tb work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/rf.v" into library work
+Analyzing Verilog file "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/alu.v" into library work
+Analyzing Verilog file "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/imem.v" into library work
+Analyzing Verilog file "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/dmem.v" into library work
+Analyzing Verilog file "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" into library work
+WARNING:HDLCompiler:568 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 213: Constant value is truncated to fit in <2> bits.
+WARNING:HDLCompiler:568 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 225: Constant value is truncated to fit in <2> bits.
+WARNING:HDLCompiler:568 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 231: Constant value is truncated to fit in <2> bits.
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 142: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 151: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 160: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 169: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 178: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 187: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu_tb.v" into library work
+Analyzing Verilog file "/opt/tools/xilinx/ise/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 63: Port reset is not connected to this instance
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 142: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 151: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 160: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 169: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 178: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "/home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu.v" Line 187: Concatenation with unsized literal; will interpret as 32 bits
+Completed static elaboration
+Fuse Memory Usage: 103920 KB
+Fuse CPU Usage: 2570 ms
+Compiling module rf
+Compiling module alu
+Compiling module cpu
+Compiling module dmem
+Compiling module imem
+Compiling module cpu_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 7 Verilog Units
+Built simulation executable /home/sundar/Desktop/comporg/a3.1/SingleCycleCPU/cpu_tb_isim_beh.exe
+Fuse Memory Usage: 664476 KB
+Fuse CPU Usage: 2630 ms
+GCC CPU Usage: 1350 ms

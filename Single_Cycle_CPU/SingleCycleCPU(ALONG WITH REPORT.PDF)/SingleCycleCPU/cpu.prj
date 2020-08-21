@@ -1,0 +1,3 @@
+verilog work "rf.v"
+verilog work "alu.v"
+verilog work "cpu.v"
