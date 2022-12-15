@@ -1,5 +1,5 @@
 # Pipelined RISCV-Processor
- This repo contains verilog code of a **multi-stage pipelined RISC-V** processor with stalling, data-forwarding, **hazard detection**, **branch predictor**, **DMEM ECC** and **CORDIC FFT** accelerator additionals. [Link](https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf) for RISCV ISA interpretation. This work was done as a part of **Computer Organization** Course Project under the guidance of [Prof. Nitin](https://chandrachoodan.gitlab.io/) at IIT Madras. 
+ This repo contains verilog code of a **multi-stage pipelined RISC-V** processor with stalling, data-forwarding, **hazard detection**, **branch predictor**, **DMEM ECC** and **CORDIC FFT** accelerator. [Link](https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf) for RISCV ISA interpretation. This work was done as a part of **Computer Organization** course project under the guidance of [Prof. Nitin](https://chandrachoodan.gitlab.io/) at IIT Madras. 
 
 ## RISC-V CPU
 1. `Pipelined_CPU/EE17B069_ASSIGNMENT4_FINAL/ee17b114_ee17b069_assgn4/wd_assign_4/cpu_pipeline` contains HDL implementation of a 5-stage pipelined RISC-V CPU with stalling, data forwarding and hazard detection. 
