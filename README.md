@@ -6,7 +6,7 @@
 2. `Single_Cycle_CPU` implements a single-cycle CPU with some assumption as stated in it's `README.md`. 
 3. The whole CPU was developed in stages, starting with ALU, MEM, serial multiplier, etc. till a full pipelined CPU.
 
-[Block diagram](./Single_Cycle_CPU/riscv-processor-flowchart.PNG)
+![Block diagram](./Single_Cycle_CPU/riscv-processor-flowchart.PNG)
 
 ## Branch predictor & ECC-RAM
 
