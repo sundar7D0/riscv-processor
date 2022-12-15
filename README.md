@@ -10,7 +10,7 @@
 
 ## Branch predictor & ECC-RAM
 
-An external **BRANCH_PREDICTOR** hardware (`BranchPredictor_DMEMDelay/BRANCH_PREDICTION_EE17B069/Branch_prediction`) to tries to prevent stalls/roll backs because of wrong branches. 
+An exta **BRANCH_PREDICTOR** hardware (`BranchPredictor_DMEMDelay/BRANCH_PREDICTION_EE17B069/Branch_prediction`) that tries to prevent stalls/roll backs because of wrong branches. 
 1. The decision on whether to take or not take the branch (branch prediction) prior to the ‘verdict’ must be based on **some statistics of previous encounters** with those branch statements. 
 2. Hence, we came up with a simple statistic - we save the ‘verdict’ of every branch statement by allowing it to vote for "branch not taken" times or "branch taken" times. 
 3. We use this statistic while we branch predict - if the votes forbranch taken time is more than the branch not taken times , instead of loading PC+4, we load the branched PC and vice versa. This we help us treat every branch statement individually based on their statistics
