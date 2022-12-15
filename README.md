@@ -15,7 +15,7 @@ An exta **BRANCH_PREDICTOR** hardware (`BranchPredictor_DMEMDelay/BRANCH_PREDICT
 2. Hence, we came up with a simple statistic - we save the ‘verdict’ of every branch statement by allowing it to vote for "branch not taken" times or "branch taken" times. 
 3. We use this statistic while we branch predict - if the votes for "branch taken" time is more than the "branch not taken" times , instead of loading PC+4, we load the branched PC and vice versa. This we help us treat every branch statement individually based on their statistics.
 
-A **DMEM_DELAY** model (`BranchPredictor_DMEMDelay/DMEM_DELAY_EE17B069/dmem_delay`) creates different explicit delays for different memory blocks (Cache vs DMEM) to simulate real life scenario. If a block in DMEM errors out, it creates a maps that erroneous space to another redundant memory space, thereby enabling ECC memories.
+A **DMEM_DELAY** model (`BranchPredictor_DMEMDelay/DMEM_DELAY_EE17B069/dmem_delay`) creates different explicit delays for different memory blocks (Cache vs DMEM) to simulate real life scenario. If a block in DMEM errors out, it creates a mapping of that erroneous space to another redundant memory space, thereby enabling ECC memories.
 
 Both of them were simulated for critical instruction sets and hardware implementation for the same worked as expected.
 
