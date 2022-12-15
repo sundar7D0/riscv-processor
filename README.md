@@ -8,4 +8,4 @@ the CORDIC algorithm, with 16 bit precision. Simulations were performed in Xilin
 Xilinx Vivado. Results show that the relative mean square error in the implementation with
 respect to corresponding FFT computations in MATLAB® are less than 2%. 
 
-find pdf here: [./CORDIC_FFT_accelerator/cordic_fft_info.pdf]
+find pdf here: [here](./CORDIC_FFT_accelerator/cordic_fft_info.pdf)
