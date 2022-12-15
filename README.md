@@ -4,7 +4,7 @@
 ## RISC-V CPU
 1. `Pipelined_CPU/EE17B069_ASSIGNMENT4_FINAL/ee17b114_ee17b069_assgn4/wd_assign_4/cpu_pipeline` contains HDL implementation of a 5-stage pipelined RISC-V CPU with stalling, data forwarding and hazard detection. 
 2. `Single_Cycle_CPU` implements a single-cycle CPU with some assumption as stated in it's `README.md`. 
-3. The whole CPU was developed in stages, starting with ALU, MEM, serial multiplier etc. till a full pipelined CPU.
+3. The whole CPU was developed in stages, starting with ALU, MEM, serial multiplier, etc. till a full pipelined CPU.
 
 [Block diagram](./Single_Cycle_CPU/riscv-processor-flowchart.PNG)
 
