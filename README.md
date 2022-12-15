@@ -25,4 +25,4 @@ the **CORDIC** algorithm (for memory efficiency), with 16 bit precision.
 2. Simulations were performed in Xilinx ISE, Vivado. Results show that the relative mean square error in the implementation with respect to corresponding FFT computations in MATLAB are less than **3%**. 
 3. Find [paper](./CORDIC_FFT_accelerator/cordic_fft_info.pdf).
 
-After the entire project was coded in assembly, it was verified by emulating on a **Spartan-6 FPGA** to control external IOs like motors/LCDs, run complex FFT algorithms to measure speed-ups, etc.
+After the entire project was coded in assembly, it was verified by emulating on a **Spartan-6 FPGA** to control external IOs like motors/LCDs, run complex FFT algorithms to measure speed-ups due to the FFT accelerator, etc.
