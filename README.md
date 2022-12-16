@@ -23,7 +23,7 @@ Both of them were simulated for critical instruction sets and hardware implement
 1. `CORDIC_FFT_accelerator/main_cordic_fft.v` implementats a **16-point Discrete Fourier transform** using the Fast Fourier Transform (radix-2, radix-4) algorithm and
 the **CORDIC** algorithm (for memory efficiency), with 16 bit precision. 
 2. Simulations were performed in Xilinx ISE, Vivado. Results show that the relative mean square error in the implementation with respect to corresponding FFT computations in MATLAB are less than **3%**. 
-3. Find [paper](./CORDIC_FFT_accelerator/cordic_fft_info.pdf).
+3. Find my [paper](./CORDIC_FFT_accelerator/cordic_fft_info.pdf) on CORDIC FFT implementation.
 4. Read multiple papers on **efficient** FFT implementation and finally followed the approach in this [paper](https://ieeexplore.ieee.org/document/5776727). 
 5. It proposes novel **systematic** approaches for parallel & **pipelined (retimed)** architectures using **folding transformations** for computation of complex and real FFT, based on **radix-2n** algorithms, for better throughput & reductions in total area. 
 6. Find a **short review** of the paper written by me [here](https://drive.google.com/file/d/13EEr6RtAh5V6N4mWk3bindacHIKLSNrA/view?usp=sharing).
